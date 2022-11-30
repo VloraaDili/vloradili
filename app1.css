@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+    background-color: black;
+    background-image: url(images/perfume-spray.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-div{
+    margin-top: 1%;
+    height: 105px;
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    padding-top: 5%;
+}
+.img-div{
+    position: absolute;
+    left: 10%;
+}
+.list-div{
+    position: absolute;
+    left: 55%;
+}
+.nav-list li a{
+    display: block;
+    padding: 14px 14px;
+    color: bisque;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    color: darkgrey;
+    border-bottom: 1px solid darkgrey;
+    cursor: pointer;
+}
+.text-div{
+    text-align: center;
+}
+.together-div{
+    margin-top: 3%;
+    margin-left: 9%;
+    height: 450px;
+}
+.antari-div{
+    width: 23.5%;
+    float: left;
+    text-align: center;
+}
+.antari-div img{
+    width: 300px;
+    height: 320px;
+    background: #878787;
+    border-radius: 20px;
+}
+.together2-div{
+    margin-top: 2%;
+    margin-left: 9%;
+    height: 450px;
+}
+.text1-div{
+    margin-top: 3%;
+    text-align: center;
+}
+.button2{
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: burlywood;
+    border: none;
+}
+.button2:hover{
+    background-color: darkgrey;
+}
+.text2-div{
+    margin-top: 3%;
+    text-align: center;
+}
+.together3-div{
+    margin-top: 2%;
+    margin-left: 9%;
+    height: 450px;
+}
+.footer{
+    margin-top: 3%;
+    height: 50px;
+    color: bisque;
+    text-align: center;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    font-size: 15pt;
+    display: inline;
+    padding-left: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color: bisque;
+}
+.footer a:hover{
+    color: darkgray;
+}
